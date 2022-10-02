@@ -7,7 +7,7 @@ import LiveFeed from "./Components/LiveFeed/LiveFeed";
 function App() {
     return (
         <>
-            {/*<Header/>*/}
+            <Header/>
             <LiveFeed/>
             <div className="container">
                 <Routes>
