@@ -1,3 +1,38 @@
 .home{
-
+  //position: relative;
+  &:after{
+    content: " ";
+    position: absolute;
+    width: 25vw;
+    height: 25vw;
+    background: rgba(155, 21, 165, 0.35);
+    filter: blur(126.5px);
+    right: 0;
+    overflow: hidden;
+  }
+  &:before{
+    content: " ";
+    position: absolute;
+    width: 25vw;
+    height: 25vw;
+    background: rgba(82, 123, 194, 0.35);
+    filter: blur(126.5px);
+    left: 0;
+  }
+  .title{
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+  }
+  .products{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    flex-wrap: wrap;
+  }
 }
