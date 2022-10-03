@@ -1,27 +1,6 @@
 .home{
   //position: relative;
-  &:after{
-    content: " ";
-    position: absolute;
-    width: 25vw;
-    height: 25vw;
-    background: rgba(155, 21, 165, 0.35);
-    filter: blur(126.5px);
-    right: 0;
-    z-index: -1;
-    overflow: hidden;
-  }
-  &:before{
-    z-index: -1;
 
-    content: " ";
-    position: absolute;
-    width: 25vw;
-    height: 25vw;
-    background: rgba(82, 123, 194, 0.35);
-    filter: blur(126.5px);
-    left: 0;
-  }
   .title{
     display: block;
     text-align: center;
@@ -37,5 +16,6 @@
     justify-content: space-between;
     gap: 25px;
     flex-wrap: wrap;
+    margin-bottom: 100px;
   }
 }

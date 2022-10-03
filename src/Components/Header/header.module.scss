@@ -63,3 +63,14 @@
     }
   }
 }
+
+@media (max-width: 830px) {
+  .header{
+    .menu{
+      .items_block{
+        display: none;
+      }
+    }
+  }
+  
+}

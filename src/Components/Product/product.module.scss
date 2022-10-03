@@ -87,15 +87,18 @@
 
 @media (max-width: 800px) {
   .product{
-    max-width: 45vw;
+    max-width: 43vw;
+    .title{
+      font-size: 4vw;
+    }
     .price_block{
       .last_price{
         padding: 3vw 2vw;
-        font-size: 3vw;
+        font-size: 2.5vw;
       }
       .price{
         padding: 3vw 2vw;
-        font-size: 3vw;
+        font-size: 2.5vw;
 
       }
     }

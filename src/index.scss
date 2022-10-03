@@ -1,0 +1,38 @@
+.container{
+    padding: 10px;
+    max-width: 1310px;
+    margin: 0 auto;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: 'Inter', sans-serif;
+    background: #231D27;
+/*    &:after{
+        content: " ";
+        position: absolute;
+        width: 30vw;
+        height: 30vw;
+        background: rgba(155, 21, 165, 0.35);
+        filter: blur(126.5px);
+        bottom: -80%;
+        right: 0;
+        z-index: -1;
+        overflow: hidden;
+    }
+    &:before{
+        top: 50%;
+        z-index: -1;
+        content: " ";
+        position: absolute;
+        width: 30vw;
+        height: 30vw;
+        background: rgba(82, 123, 194, 0.35);
+        filter: blur(126.5px);
+        left: -15vw;
+    }*/
+}

@@ -17,6 +17,14 @@ const Home: FunctionComponent<Props> = (props) => {
               <Product/>
               <Product/>
           </div>
+          <span className={s.title}>ЭСКЛЮЗИВНЫЕ КЕЙСЫ</span>
+          <div className={s.products}>
+              <Product/>
+              <Product/>
+              <Product/>
+              <Product/>
+              <Product/>
+          </div>
       </div>
   );
 };
