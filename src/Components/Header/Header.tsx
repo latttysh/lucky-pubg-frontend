@@ -21,7 +21,7 @@ const Header: FunctionComponent<Props> = (props) => {
                         <span className={s.logo__text}>lucky-pubg</span>
                     </div>
                     <div className={s.items_block}>
-                        <NavLink to={"/home"}>
+                        <NavLink to={"/"}>
                             <div className={s.item}>Главная</div>
                         </NavLink>
                         <NavLink to={"/feedbacks"}>

@@ -6,6 +6,7 @@ import LiveFeed from "./Components/LiveFeed/LiveFeed";
 import Footer from "./Components/Footer/Footer";
 import MobileMenu from "./Components/MobileMenu/MobileMenu";
 import Feedbacks from "./Pages/Feedbacks/Feedbacks";
+import Faq from "./Pages/Faq/Faq";
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/feedbacks" element={<Feedbacks />} />
+                    <Route path="/faq" element={<Faq />} />
                 </Routes>
             </div>
             <MobileMenu/>
