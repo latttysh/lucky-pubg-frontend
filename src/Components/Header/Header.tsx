@@ -30,7 +30,7 @@ const Header: FunctionComponent<Props> = (props) => {
                         <NavLink to={"/faq"}>
                             <div className={s.item}>FAQ</div>
                         </NavLink>
-                        <NavLink to={"/guart"}>
+                        <NavLink to={"/guarantees"}>
                             <div className={s.item}>Гарантии</div>
                         </NavLink>
                         <NavLink to={"/support"}>

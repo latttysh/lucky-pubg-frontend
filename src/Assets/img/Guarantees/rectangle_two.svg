@@ -1,0 +1,57 @@
+<svg width="200" height="206" viewBox="0 0 200 206" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_74_2670" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="-116" width="317" height="322">
+<rect y="-116" width="317" height="321.708" fill="#6C02C0"/>
+</mask>
+<g mask="url(#mask0_74_2670)">
+<line x1="-245.142" y1="132.717" x2="254.894" y2="-306.262" stroke="#8F00FF"/>
+<line x1="-237.295" y1="143.702" x2="262.741" y2="-295.277" stroke="#8F00FF"/>
+<line x1="-229.449" y1="154.687" x2="270.588" y2="-284.292" stroke="#8F00FF"/>
+<line x1="-221.602" y1="165.672" x2="278.434" y2="-273.306" stroke="#8F00FF"/>
+<line x1="-213.756" y1="176.657" x2="286.281" y2="-262.321" stroke="#8F00FF"/>
+<line x1="-205.909" y1="187.643" x2="294.127" y2="-251.336" stroke="#8F00FF"/>
+<line x1="-198.062" y1="198.628" x2="301.974" y2="-240.351" stroke="#8F00FF"/>
+<line x1="-190.216" y1="209.613" x2="309.82" y2="-229.366" stroke="#8F00FF"/>
+<line x1="-182.369" y1="220.598" x2="317.667" y2="-218.381" stroke="#8F00FF"/>
+<line x1="-174.523" y1="231.583" x2="325.514" y2="-207.396" stroke="#8F00FF"/>
+<line x1="-166.677" y1="242.568" x2="333.36" y2="-196.41" stroke="#8F00FF"/>
+<line x1="-158.83" y1="253.553" x2="341.206" y2="-185.425" stroke="#8F00FF"/>
+<line x1="-150.983" y1="264.539" x2="349.053" y2="-174.44" stroke="#8F00FF"/>
+<line x1="-143.137" y1="275.524" x2="356.899" y2="-163.455" stroke="#8F00FF"/>
+<line x1="-135.29" y1="286.509" x2="364.746" y2="-152.47" stroke="#8F00FF"/>
+<line x1="-127.444" y1="297.494" x2="372.593" y2="-141.485" stroke="#8F00FF"/>
+<line x1="-119.597" y1="308.479" x2="380.439" y2="-130.499" stroke="#8F00FF"/>
+<line x1="-111.751" y1="319.464" x2="388.286" y2="-119.514" stroke="#8F00FF"/>
+<line x1="-103.904" y1="330.45" x2="396.132" y2="-108.529" stroke="#8F00FF"/>
+<line x1="-96.0574" y1="341.435" x2="403.979" y2="-97.544" stroke="#8F00FF"/>
+<line x1="-88.2112" y1="352.42" x2="411.825" y2="-86.5589" stroke="#8F00FF"/>
+<line x1="-80.3645" y1="363.405" x2="419.672" y2="-75.5737" stroke="#8F00FF"/>
+<line x1="-72.5179" y1="374.39" x2="427.518" y2="-64.5886" stroke="#8F00FF"/>
+<line x1="-64.6717" y1="385.375" x2="435.365" y2="-53.6035" stroke="#8F00FF"/>
+<line x1="-56.825" y1="396.36" x2="443.211" y2="-42.6183" stroke="#8F00FF"/>
+<line x1="-48.9783" y1="407.346" x2="451.058" y2="-31.6331" stroke="#8F00FF"/>
+<line x1="-41.1316" y1="418.331" x2="458.905" y2="-20.648" stroke="#8F00FF"/>
+<line x1="-33.2854" y1="429.316" x2="466.751" y2="-9.66282" stroke="#8F00FF"/>
+<line x1="-25.4388" y1="440.301" x2="474.598" y2="1.32235" stroke="#8F00FF"/>
+<line x1="-17.5921" y1="451.286" x2="482.444" y2="12.3075" stroke="#8F00FF"/>
+<line x1="-9.74588" y1="462.271" x2="490.29" y2="23.2926" stroke="#8F00FF"/>
+<line x1="-1.8992" y1="473.257" x2="498.137" y2="34.2778" stroke="#8F00FF"/>
+<line x1="5.94748" y1="484.242" x2="505.984" y2="45.2629" stroke="#8F00FF"/>
+<line x1="-318.899" y1="179.796" x2="181.137" y2="-259.183" stroke="#8F00FF"/>
+<line x1="-326.746" y1="171.95" x2="173.29" y2="-267.029" stroke="#8F00FF"/>
+<g filter="url(#filter0_d_74_2670)">
+<path d="M39.2329 45.6386L98.8666 -52.2137L218.134 -52.2137L277.768 45.6386L218.134 143.491L98.8666 143.491L39.2329 45.6386Z" fill="#8E00FF"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_74_2670" x="30.2329" y="-61.2137" width="256.535" height="213.705" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="4.5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.556863 0 0 0 0 0 0 0 0 0 1 0 0 0 0.45 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_74_2670"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_74_2670" result="shape"/>
+</filter>
+</defs>
+</svg>

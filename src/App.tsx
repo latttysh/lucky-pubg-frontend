@@ -7,6 +7,7 @@ import Footer from "./Components/Footer/Footer";
 import MobileMenu from "./Components/MobileMenu/MobileMenu";
 import Feedbacks from "./Pages/Feedbacks/Feedbacks";
 import Faq from "./Pages/Faq/Faq";
+import Guarantees from "./Pages/Guarantees/Guarantees";
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="/feedbacks" element={<Feedbacks />} />
                     <Route path="/faq" element={<Faq />} />
+                    <Route path="/guarantees" element={<Guarantees />} />
                 </Routes>
             </div>
             <MobileMenu/>
