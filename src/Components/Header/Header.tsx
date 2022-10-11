@@ -4,6 +4,9 @@ import logo from "../../Assets/img/Header/logo.svg"
 import user from "../../Assets/img/Header/user.svg"
 import exit from "../../Assets/img/Header/exit.svg"
 import {NavLink} from "react-router-dom";
+import TelegramLoginButton from 'react-telegram-login';
+import {useAppDispatch} from "../../Redux/store";
+import {AsyncAuth} from "../../Redux/Slice/AsyncActions";
 
 interface OwnProps {
 }
@@ -11,6 +14,20 @@ interface OwnProps {
 type Props = OwnProps;
 
 const Header: FunctionComponent<Props> = (props) => {
+    const dispatch = useAppDispatch()
+    // const {TelegramLoginButton} = require("react-telegram-login")
+    const handleTelegramResponse = (response: any) => {
+        console.log(response);
+        dispatch(AsyncAuth(response)).then(res => {
+            // @ts-ignore
+            if (!res.error) {
+                console.log(res)
+                // @ts-ignore
+                window.localStorage.setItem("token", res.payload.data.token)
+                window.location.reload()
+            }
+        })
+    };
 
     return (
         <div className={s.header}>
@@ -37,11 +54,17 @@ const Header: FunctionComponent<Props> = (props) => {
                             <div className={s.item}>Поддержка</div>
                         </NavLink>
                     </div>
-                    <div className={s.user}>
-                        <div className={s.nickname}>nickname</div>
-                        <img src={user} alt="user"/>
-                        <img src={exit} alt="exit"/>
-                    </div>
+                    {localStorage.getItem("token") ?
+                        <div className={s.user}>
+                            <div className={s.nickname}>nickname</div>
+                            <img src={user} alt="user"/>
+                            <img src={exit} alt="exit"/>
+                        </div>
+                        :
+                        <>
+                            <TelegramLoginButton dataOnauth={handleTelegramResponse} botName={"funpayzalupabot"}/>
+                        </>
+                    }
                 </div>
             </div>
         </div>
