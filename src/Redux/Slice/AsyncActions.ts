@@ -60,7 +60,8 @@ export const AsyncAuthMe = createAsyncThunk(
     "auth/getMe",
     async () => {
         const {data} = await axios.get("/auth/authMe", {headers:{
-            "Authorization": localStorage.getItem("token")
+                // @ts-ignore
+                'Authorization': localStorage.getItem("token")
             }})
         return data
     }
